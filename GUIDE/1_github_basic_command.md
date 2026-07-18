@@ -20,7 +20,7 @@ xcode-select --install     # 없을 경우 설치
 brew install gh            # GitHub CLI 설치
 ```
 
-## 3. 내 정보 등록 (최초 1회만)
+## 3. 내 정보 등록
 ```bash
 git config --global user.name "이름"
 git config --global user.email "이메일"
@@ -29,6 +29,7 @@ git config --global user.email "이메일"
 - `--global`: 컴퓨터 전체에 적용, 이후 재입력 불필요
 - 특정 프로젝트에서만 다른 이름/이메일 쓰고 싶을 땐, 해당 폴더에서 `--global` 없이 입력
 - 확인: `git config --global user.name`
+- 최초 1회만 진행
 
 ## 4. GitHub 로그인
 ```bash
@@ -46,7 +47,7 @@ git init                # 이 폴더를 Git 저장소로 초기화 (.git 폴더 
 git status              # 현재 상태 확인
 ```
 
-## 6. 파일 기록하기 (2단계)
+## 6. 파일 기록하기
 ```bash
 git add .                        # 파일을 추적 대상으로 등록
 git commit -m "커밋 메시지"        # 하나의 버전으로 저장
@@ -81,7 +82,7 @@ git reset
 
 → 스테이징 취소 (커밋 전 상태로 되돌림)
 
-## 10. GitHub 추적에서만 제거 (로컬 파일은 유지)
+## 10. GitHub 추적에서만 제거
 ```bash
 git rm --cached 파일명
 git rm -r --cached 폴더명
@@ -127,3 +128,14 @@ git remote -v
 git remote set-url origin 새URL
 ```
 
+## 13. GitHub 버전으로 Sync하기
+**커밋 전이라면**
+```bash
+git checkout -- .
+git checkout -- 파일명
+```
+**이미 커밋 했다면 (push 전)**
+```bash
+git reset --hard origin/main
+```
+- 두 방법 모두 로컬에서 수정한 내용은 삭제됨
