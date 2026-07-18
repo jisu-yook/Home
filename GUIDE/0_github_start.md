@@ -1,6 +1,27 @@
 ## GitHub 시작하기 
-[1_GitHub 기초 명령어](1_github_basic_command.md)
+  - [0. 기존 저장소 내려받기 (clone)](1_github_basic_command.md#0-기존-저장소-내려받기-clone)
+  - [1. 개념](1_github_basic_command.md#1-개념)
+  - [2. 설치](1_github_basic_command.md#2-설치)
+  - [3. 내 정보 등록](1_github_basic_command.md#3-내-정보-등록)
+  - [4. GitHub 로그인](1_github_basic_command.md#4-github-로그인)
+  - [5. 로컬 저장소 만들기](1_github_basic_command.md#5-로컬-저장소-만들기)
+  - [6. 파일 기록하기](1_github_basic_command.md#6-파일-기록하기)
+  - [7. GitHub에 업로드](1_github_basic_command.md#7-github에-업로드)
+  - [8. 이후 반복 작업 흐름](1_github_basic_command.md#8-이후-반복-작업-흐름)
+  - [9. add 취소하기](1_github_basic_command.md#9-add-취소하기)
+  - [10. GitHub 추적에서만 제거](1_github_basic_command.md#10-github-추적에서만-제거)
+  - [11. 원격 저장소 지정 push](1_github_basic_command.md#11-원격-저장소-지정-push)
+  - [12. Repo 삭제](1_github_basic_command.md#12-repo-삭제)
+  - [13. GitHub 버전으로 Sync하기](1_github_basic_command.md#13-github-버전으로-sync하기)
 
-[1-1 명령어 심화](1-1_command_apendix.md)
-
+## Github appendix
+  - [VSCode 연동](1-1_command_apendix.md#vscode-연동)
+  - [브랜치(Branch)란](1-1_command_apendix.md#브랜치branch란)
+  - [.gitignore](1-1_command_apendix.md#gitignore)
+    - [작성법](1-1_command_apendix.md#작성법)
+    - [특정 파일이 왜 무시되는지 확인](1-1_command_apendix.md#특정-파일이-왜-무시되는지-확인)
+  - [실수로 로컬 파일까지 삭제된 경우 복구](1-1_command_apendix.md#실수로-로컬-파일까지-삭제된-경우-복구)
+  - [서브모듈처럼 인식되는 폴더 (untracked content)](1-1_command_apendix.md#서브모듈처럼-인식되는-폴더-untracked-content)
+  - [etc 에러](1-1_command_apendix.md#etc-에러)
+    - [upstream branch 없음](1-1_command_apendix.md#upstream-branch-없음)
 
